@@ -8,7 +8,7 @@ fn print() {
     println!("{}", BigInteger::from_str("+100"));
     println!("{}", BigInteger::from_str("100"));
 
-    let num_l = vec![String::from("420"), String::from("-69")];
+    let num_l = [String::from("420"), String::from("-69")];
 
     println!(
         "{} + {} = {}",
